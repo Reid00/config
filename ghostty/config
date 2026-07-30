@@ -48,8 +48,8 @@ background = 1e222a
 foreground = dcdfe4
 
 # 调整选择区域的前后景色反转，提高复制时的辨识度
-selection-background = 405060
-selection-foreground = dcdfe4
+selection-background = 61afef
+selection-foreground = 1e222a
 
 copy-on-select = clipboard
 clipboard-trim-trailing-spaces = true
