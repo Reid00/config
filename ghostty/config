@@ -24,7 +24,8 @@ window-save-state = always
 # 背景不透明度设为 80%，半透效果最高级
 background-opacity = 0.8
 # 背景模糊半径，配合透明度产生绝美的磨砂玻璃 (亚克力) 质感
-background-blur-radius = 25
+background-blur = 25
+
 
 # ==============================
 # 实用细节：光标与内存优化
@@ -53,20 +54,5 @@ selection-foreground = dcdfe4
 copy-on-select = clipboard
 clipboard-trim-trailing-spaces = true
 
-palette = 0=#1e222a
-palette = 1=#e06c75
-palette = 2=#98c379
-palette = 3=#e5c07b
-palette = 4=#61afef
-palette = 5=#c678dd
-palette = 6=#56b6c2
-palette = 7=#dcdfe4
-palette = 8=#545862
-palette = 9=#e06c75
-palette = 10=#98c379
-palette = 11=#e5c07b
-palette = 12=#61afef
-palette = 13=#c678dd
-palette = 14=#56b6c2
-palette = 15=#ffffff
+
 
