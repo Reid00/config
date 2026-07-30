@@ -1,0 +1,72 @@
+# ==============================
+# 字体与排版：打造呼吸感
+# ==============================
+# 强烈推荐深受开发者喜爱的 JetBrainsMono 字体
+font-family = "JetBrainsMono Nerd Font Mono"
+font-style-bold = "Medium"
+font-style-bold-italic = "Medium Italic"
+font-size = 14.5
+
+# 字体加粗渲染，让代码在高清屏上看起来更饱满扎实
+font-thicken=true
+grapheme-width-method =unicode
+adjust-cell-width = 0%
+
+# 减少水平边距，节省屏幕空间；适当增加垂直边距，不至于太拥挤
+window-padding-x = 15
+window-padding-y = 15
+# 永远保存窗口状态（记住你上次关闭时的窗口大小和位置）
+window-save-state = always
+
+# ==============================
+# 沉浸式 UI：透明与高斯模糊
+# ==============================
+# 背景不透明度设为 80%，半透效果最高级
+background-opacity = 0.8
+# 背景模糊半径，配合透明度产生绝美的磨砂玻璃 (亚克力) 质感
+background-blur-radius = 25
+
+# ==============================
+# 实用细节：光标与内存优化
+# ==============================
+# 使用醒目的黄色作为光标颜色，更容易在密集的日志中找到位置
+cursor-color = e5c07b
+cursor-style = block
+# 开启光标闪烁
+cursor-style-blink =false
+
+# 减少滚动历史记录（保留 2w 行），为追求极致性能节省内存
+scrollback-limit = 20000
+
+# ==============================
+# 配色方案：护眼 OneDark 优化版
+# ==============================
+# 稍微加深背景色以增加代码高亮对比度
+background = 1e222a
+# 提高前景色亮度，文本更清晰易读
+foreground = dcdfe4
+
+# 调整选择区域的前后景色反转，提高复制时的辨识度
+selection-background = 405060
+selection-foreground = dcdfe4
+
+copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
+
+palette = 0=#1e222a
+palette = 1=#e06c75
+palette = 2=#98c379
+palette = 3=#e5c07b
+palette = 4=#61afef
+palette = 5=#c678dd
+palette = 6=#56b6c2
+palette = 7=#dcdfe4
+palette = 8=#545862
+palette = 9=#e06c75
+palette = 10=#98c379
+palette = 11=#e5c07b
+palette = 12=#61afef
+palette = 13=#c678dd
+palette = 14=#56b6c2
+palette = 15=#ffffff
+
