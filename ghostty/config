@@ -54,5 +54,28 @@ selection-foreground = 1e222a
 copy-on-select = clipboard
 clipboard-trim-trailing-spaces = true
 
+# ==============================
+# Quick Terminal
+# ==============================
 
+# 在任何应用中按 Cmd + ` 显示/隐藏
+keybind = global:cmd+backquote=toggle_quick_terminal
+
+# 从屏幕顶部弹出
+quick-terminal-position = top
+
+# 占屏幕高度的 45%；宽度默认铺满
+quick-terminal-size = 45%,80%
+
+# 在鼠标所在的显示器出现
+quick-terminal-screen = mouse
+
+# 动画时长，单位为秒
+quick-terminal-animation-duration = 0.15
+
+# 点击其他窗口后自动隐藏
+quick-terminal-autohide = true
+
+# 切换 macOS 桌面时跟随当前桌面
+quick-terminal-space-behavior = move
 
