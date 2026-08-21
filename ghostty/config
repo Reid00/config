@@ -79,3 +79,4 @@ quick-terminal-autohide = true
 # 切换 macOS 桌面时跟随当前桌面
 quick-terminal-space-behavior = move
 
+shell-integration-features = ssh-env,ssh-terminfo
