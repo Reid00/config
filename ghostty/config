@@ -80,3 +80,8 @@ quick-terminal-autohide = true
 quick-terminal-space-behavior = move
 
 shell-integration-features = ssh-env,ssh-terminfo
+
+# 移除ghosttt 对option 的特殊绑定
+macos-option-as-alt = true
+keybind = alt+left=unbind
+keybind = alt+right=unbind
